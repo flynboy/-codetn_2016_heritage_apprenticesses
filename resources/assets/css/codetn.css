@@ -1,5 +1,5 @@
 html {
-  position: relative;
+ position: relative;
   min-height: 100%;
 }
 
@@ -7,9 +7,30 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 62px;
 }
+ 
+ .welcome {
+  font-family: "Economica";
+  text-align: center;
+ }
+ .fancy_light_gray {
+   color:#dddddd; 
+   text-shadow: -1px 0 #16405a, 0 1px #16405a, 1px 0 #16405a, 0 -1px #16405a;
+   font-family: "Economica";
+   text-align: center;
+ }
+ .light_gray {
+   color:#dddddd;
+   text-shadow: none;
+   text-align:left;
+ }
+
+ .motto {
+   color: black;
+   text-align: center;
+ }
 
 .navbar-brand img {
-  height: 50px;
+  height: 100px;
   margin-top: -15px;
 }
 
@@ -43,4 +64,58 @@ body {
 .footer li {
   float: left;
   padding: 0px 20px 0px;
+}
+.ccourse {
+font-family: "Economica";
+  text-align: center;
+  
+}
+
+.post {
+    width: 700px; 
+    padding: 25px 50px 25px 50px; 
+    border-radius: 15px; 
+    background-color: #5694b2; 
+    border: 2px solid #44768e;
+    display: block; 
+    display: inline-block; 
+    text-align: center;
+}
+.comment {
+    width: 700px; 
+    padding: 25px 50px 25px 50px; 
+    border-radius: 15px; 
+    background-color: #8dbed6; 
+    border: 2px solid #7098ab;
+    display: block; 
+    display: inline-block; 
+    text-align: center;
+}
+.write_post {
+    width: 700px; 
+    padding: 25px 50px 25px 50px; 
+    border-radius: 15px; 
+    background-color: #5694b2; 
+    border: 2px solid #281d18;
+    display: block; 
+    display: inline-block; 
+    text-align: center;
+    margin: 25px;
+}
+.post_header {
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    color: #0C3245;
+}
+.comment_header {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0C3245;
+}
+.basic_text {
+    color: #0C3245;
+    text-align:left;
+    font-size: 1em;
 }

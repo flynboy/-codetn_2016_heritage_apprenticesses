@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.newpas')
 
 <!-- Main Content -->
 @section('content')

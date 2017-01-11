@@ -1,0 +1,55 @@
+
+
+How to open and start the program:
+1.Open up the Cloud9 workspace
+2.Hit run at the top of the menu on your Cloud9 workspace. 
+3.Hit Preview then Preview running application or go to the url (https://apprenticesses-flynboy.c9users.io/)
+
+How to login
+1.Once you reach the landing page, click Login/Register
+2.You cannot create an account, because you would need an email ending in “blountk12.org”. We have created an account for you at CodeTn to use. Sign in as megan.brewer@students.blountk12.org with the password codetn
+3.If you need to use a second account (perhaps to see how the todolist only shows items for one person), then we have a second account for you:  athena.guinn832@students.blountk12.org with the password codetn2
+
+Features: 
+1.Blog
+    a.For students to ask questions and and respond to others questions.
+2.To-do list
+    a.For students to put tasks that need to be done and make them off as they finish them
+3.Calendar 
+    a.For students to reference dates. They can also go to the school calendar from here.
+4.Home Page	
+    a.Where students can find school news and other information.
+
+Languages used:
+1.PHP
+    a.Backend.
+2.CSS
+    a.Used for styling and some positioning
+3.HTML
+    a.It is what the css modifies
+4.MySQL
+    a.Used in database.
+5.JavaScript
+    a.Used on various  pages.
+6. Bootstrap
+    a.Used mainly for positioning. 
+
+Our project is about peers communicating through a forum only program specifically about for their high school classes.
+The idea is that students are ‘translating’ the concepts a teacher is teaching into a more student-friendly ‘language’
+for their peers.
+Our program, “Hooked,” is designed to allow these students to translate the language and answer questions from their
+peers, not just from that specific block, but for any student taking that class with that teacher. We believe that if
+students start to understand the ‘language’ of their teachers, they will begin to do better in that class and even help
+other students.
+
+The main purpose of this application is for students to communicate with other students that have the same teacher and 
+class. In order to get to the posts, go to courses, which is the first tab on the navigation bar. Once you get there
+choose a department, choose a class, then you are taken to the blog where you can then write a post or question.
+People can see these posts and comment on them. We also have a reference calendar, a todolist, school news, and 
+Privacy Policy pages on our site.
+
+Contact Us: 
+Here are a couple emails to contact some of our team--
+Sarah- sj.miller.tn@gmail.com
+Katrina- trina_kassib@yahoo.com
+

@@ -26,4 +26,25 @@ Route::get('/', 'StaticPagesController@welcome');
 
 Route::group(['middleware' => ['web']], function () {
   Route::auth();
+  
+Route::get('/homee', 'StaticPagesController@homee');
+
+Route::get('/calendar', 'StaticPagesController@calendar');
+
+Route::get('/about', 'StaticPagesController@about');
+
+Route::get('/departments', 'StaticPagesController@departmentList');
+
+Route::get('/courselist', 'StaticPagesController@courseList');
+
+Route::get('/report_problem', 'StaticPagesController@report_problem');
+
+Route::get('/todolist', 'StaticPagesController@todolist');
+
+Route::get('/example', 'StaticPagesController@example');
+
+Route::post('/example', 'StaticPagesController@examplepost');
+
+Route::post('/todolist', 'StaticPagesController@todolistpost');
+ 
 });
